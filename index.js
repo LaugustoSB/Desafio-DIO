@@ -1,7 +1,9 @@
+//Variaveis
 let nome = "Fulano"
 let xp = 10000
 let nivel
 
+//Selecionando o nível
 if (xp < 1000)
     nivel = "Ferro"
 if (xp > 1001 && xp < 2000)
@@ -19,5 +21,5 @@ if (xp > 9001 && xp < 10000)
 if (xp >= 10000)
     nivel = "Radiante"
 
-
+//Final do Código
 console.log("O Herói de nome " + nome + " está no nível de " + nivel)
